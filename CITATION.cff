@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this book, please cite it as below."
+authors:
+  # add additional entries for each author -- see https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md
+  - family-names: Ladino
+    given-names: Alfonso
+    website: https://github.com/aladinor
+    orcid: https://orcid.org/0000-0001-8081-7827
+    affiliation: University of Illinois at Urbana Champaign
+
+title: "Estimación cuantitativa de la precipitacion utilizando información proveniente del radar Meterológico de El
+Tablazo durante la avenida torrencial de la quebrada el Naranjal en el municipio de Puente Quetame, Cundinamarca"
+abstract: "Introducción al acceso de datos hidrometeorológicos usando Python"

@@ -1,0 +1,45 @@
+name: atmoscol2023
+channels:
+  - conda-forge
+  - pyviz
+dependencies:
+  - python>=3.9
+  - jupyter-book
+  - jupyterlab
+  - jupyter_server
+  - h5netcdf
+  - h5py
+  - netCDF4
+  - xarray
+  - cf_xarray
+  - xarray-datatree>=0.0.10
+  - xarrayutils
+  - zarr
+  - gcsfs
+  - pandas
+  - dask
+  - arm_pyart
+  - matplotlib
+  - cartopy
+  - hvplot
+  - scipy
+  - intake-esm
+  - xmovie
+  - ffmpeg
+  - xradar
+  - xlrd
+  - folium
+  - boto3
+  - datashader
+  - ipywidgets
+  - pythia-datasets
+  - wradlib
+  - cmweather
+  - siphon
+  - pip
+  - pip:
+      - sphinx-pythia-theme
+      - pydata-sphinx-theme
+      - xmip
+      - sodapy
+      - pydap
