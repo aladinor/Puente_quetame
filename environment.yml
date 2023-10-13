@@ -1,4 +1,4 @@
-name: atmoscol2023
+name: quetame
 channels:
   - conda-forge
   - pyviz

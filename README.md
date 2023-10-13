@@ -1,6 +1,9 @@
-<img src="atmoscol.jpg" alt="thumbnail" width="800"/>
+<img src="notebooks/images/puente.jpeg" alt="thumbnail" width="700"/>
 
-# Taller de datos científicos con Python y R - AtmosCol 2023
+Créditos: Mauricio Alvarado Lozada [El Espectador](https://www.elespectador.com/bogota/las-dolorosas-imagenes-que-deja-la-avalancha-en-quetame-cundinamarca-noticias-hoy/) 
+
+
+# Estimación cuántitativa de precipitacion utilizando el radar Meterológico de El Tablazo durante la avenida torrencial de la quebrada el Naranjal en el municipio de Quetame, Cundinamarca.
 
 [![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
@@ -9,43 +12,33 @@
 
 ## Motivación
 
-Introducción a la programación científica con Python y acceso a datos hidrometeorológicos de diversas fuentes.
+Este cuadernillo tiene como objetivo promover el paradigma emergente de investigación conocido como 'ciencia abierta'. Este enfoque busca fomentar el acceso y la inclusión a los datos hidrometeorológicos de diversas fuentes, así como la reproducibilidad de los códigos, con el fin de impulsar el desarrollo colaborativo y la participación en actividades científicas en todos los niveles de la sociedad.
 
+La ciencia abierta aboga por la transparencia y la colaboración en la investigación científica, fomentando la disponibilidad de datos científicos, la capacidad de reproducir los resultados, y la inclusión de diversos sectores de la sociedad en el proceso de investigación. Además, promueve la comunicación efectiva de los resultados científicos y la divulgación del conocimiento en beneficio de la comunidad en general.
+
+En el marco de este cuadernillo , se realizará la estimación cuántitativa de precipitacion utilizando información proveniente del radar Meterológico de El Tablazo durante la avenida torrencial de la quebrada el Naranjal en el municipio de Quetame, Cundinamarca el 17 de Julio de 2023.
 ## Autores
 
-Comité científico y organizador de AtmosCol 2023
+[Alfonso Ladino-Rincon](https://github.com/aladinor)
 
 ### Colaboradores
 
 <a href="https://github.com/aladinor/Atmoscol2023/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=aladinor/Atmoscol2023" />
+  <img src="https://contrib.rocks/image?repo=aladinor/Puente_quetame" />
 </a>
 
 ## Estructura
 El taller estará compuesto por dos sesiones. En la sesión de la mañana trabajeremos con Python y acceso a los datos hidrometeorológicos de diversas fuentes. En la sesión de la tarde trabajaremos anális de series de tiempo usando R.
 
-### Sección 1. Acceso a los datos hidrometeorológicos usando Python
+### Sección 1. Avenida torrencial quebrada El Naranjal
+Breve introducción de la avenida torrencial quebrada El Naranjal y sus impactos en el el municipio de Quetame, Cundinamarca.
 
-|        Hora         |                                                          Contenido                                                           |                                   Tutor                                   |  Duración  |
-|:-------------------:|:----------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:----------:|
-| 08:00 AM - 08:15 AM |            Apertura del curso. Arranque del Jupyter Lab, instalación de librerias y requerimientos para el taller            | Alfonso Ladino, Nicole Rivera, Nestor Bernal, Iván Arias, Maria F. Moreno | 15 minutos |
-| 08:15 AM - 09:00 AM |                                    Introducción a Numpy, Pandas, Xarray, Py-Art y Xradar                                     |                              Alfonso Ladino                               | 45 minutos |
-| 09:00 AM - 09:30 AM |            Acceso a los datos de estaciones IDEAM usando el portal de [datos abiertos](https://www.datos.gov.co/)            |                              Alfonso Ladino                               | 30 minutos |
-| 09:30 AM - 10:00 AM | Acceso a los datos de [radares meteorológicos](https://registry.opendata.aws/ideam-radares/) de IDEAM usando Xradar y Py-Art |                              Alfonso Ladino                               | 30 minutos |
-| 10:00 AM - 10:30 AM |                                                   Pausa para el refrigerio                                                   |                                                                           | 30 minutos |
-| 10:30 AM - 11:00 AM |                                   Acceso a los datos de NASA (OPENDAP) y los datos de CMIP                                   |                       Alfonso Ladino, Nicole Rivera                       | 30 minutos |
-| 11:00 AM - 11:30 PM |                                     Cálculo de la anomalia ENSO en el Pacífico Tropical                                      |                               Nicole Rivera                               | 30 minutos |
-| 11:30 AM - 12:00 PM |                                      Gráficas del IPCC - Escenarios de Cambio Climático                                      |                               Nicole Rivera                               | 30 minutos |
-| 12:00 PM - 01:30 PM |                                                           Almuerzo                                                           |                                                                           | 1.5 horas  |
+### Sección 2. Estimación cuantitativa de precipitación
 
-### Sección 2. Anális de series de tiempo usando R
+Análisis de los datos del radar de El Tablazo y estimación cuantitativa de la precipitación utilizando modelos Z-R
 
-
-|        Hora         |          Contenido           |     Tutor     | Duración  |
-|:-------------------:|:----------------------------:|:-------------:|:---------:|
-| 01:30 PM - 03:00 PM | Homogenización de series de tiempo mensuales de precipitación en R | Néstor Bernal | 1.5 horas |
-
-
+### Seccion 3. Comparación con información de estaciones en superficie
+Utilizando la red de estaciones y sensores de precipitaciones en superfice se realizará una comparación entre los estimados de precipitación derivados del radar meteorológicos y las mediciones en superficie
 ## Ejecutar los Notebooks
 
 Pueden ejecutar los `notebooks` bien sea usando [Binder](https://mybinder.org/) o localmente en sus maquinas.
@@ -57,20 +50,20 @@ La forma más sencilla de interactuar con un `Jupyter Notebook` es a través de 
 ### Ejecutar de manera local
 Si está interesado en ejecutar este material localmente en su computadora, deberá seguir este flujo de trabajo:
 
-1. Clone el repositorio  `https://github.com/aladinor/Atmoscol2023.git` usando el siguiente comando de consola:
+1. Clone el repositorio  `https://github.com/aladinor/Puente_quetame.git` usando el siguiente comando de consola:
 
    ```bash
-    git clone https://github.com/aladinor/Atmoscol2023.git
+    git clone https://github.com/aladinor/Puente_quetame.git
    ```
 
 1. Entre en la carpeta de `Atmoscol2023`
    ```bash
-   cd Atmoscol2023
+   cd quetame
    ```
 1. Cree y active su ambiente de desarrollo usando el archivo `environment.yml`
    ```bash
    conda env create -f environment.yml
-   conda activate atmoscol2023
+   conda activate quetame
    ```
 1. Vaya a la carpeta `notebooks` y comience una sesión de `Jupyterlab`
    ```bash
