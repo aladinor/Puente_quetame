@@ -23,7 +23,7 @@ En el marco de este cuadernillo , se realizará la estimación cuántitativa de 
 
 ### Colaboradores
 
-<a href="https://github.com/aladinor/Atmoscol2023/graphs/contributors">
+<a href="https://github.com/aladinor/Puente_quetame/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=aladinor/Puente_quetame" />
 </a>
 
